@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./build",
+    "baseUrl": "./src",
+    "paths": {
+      "Library/*": ["./Library/*"],
+      "Setup/*": ["./Setup/*"],
+      "Router/*": ["./Router/*"]
+    }
+  }
+}
